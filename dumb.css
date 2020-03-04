@@ -4,39 +4,46 @@ body {
 
 h1 {
 	color: white;
+	margin-left: 27%;
+	margin-right: 27%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+	color: white;
 	margin-left: 350px;
 	margin-right: 350px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
 	color: white;
 	text-align: center;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: 20%;
+	margin-right: 20%;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
 	color: white;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: 20%;
+	margin-right: 20%;
 	font-family: 'Montserrat', sans-serif;
 }
 
 p {
 	color: white;
 	text-align: left;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 15%;
+	margin-right: 15%;
 	font-family: 'Montserrat', sans-serif;
 }
 
 dl {
 	color: white;
 	text-align: left;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 15%;
+	margin-right: 15%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,11 +58,15 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 li {
 	float: left;
 	font-family: 'Roboto', sans-serif;
+	border-right: 1px solid #bbb;
 }
 
 li a {
@@ -73,4 +84,21 @@ li a:hover {
 
 .active {
 	background-color: SlateBlue;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+@media screen and (max-width: 400px) {
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	}
+
+	li a {
+		display: block;
+	}
 }
