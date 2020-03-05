@@ -22,6 +22,7 @@ h3 {
 	margin-left: 20%;
 	margin-right: 20%;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
 
 h2 {
@@ -45,6 +46,10 @@ dl {
 	margin-left: 15%;
 	margin-right: 15%;
 	font-family: 'Montserrat', sans-serif;
+}
+
+dt {
+	font-weight: bolder;
 }
 
 hr {
