@@ -82,7 +82,6 @@ li a {
 	text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
 	background-color: SlateBlue;
 }
@@ -123,7 +122,6 @@ li:last-child {
 		text-align: center;
 	}
 
-	/* Change the link color on hover */
 	li a:hover {
   	background-color: #555;
   	color: white;
